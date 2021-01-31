@@ -1,0 +1,20 @@
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: baseline;
+  margin-bottom: 21px;
+
+  &__amount {
+    font-weight: 700;
+    font-style: inherit;
+    font-size: 16px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 11px;
+    line-height: 1.18em;
+  }
+}
