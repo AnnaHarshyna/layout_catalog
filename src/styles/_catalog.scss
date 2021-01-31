@@ -1,6 +1,8 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+
   max-width: 1024px;
 
   margin: 0 auto;

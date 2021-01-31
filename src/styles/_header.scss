@@ -1,5 +1,6 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-areas: "MOYO logo";
   align-items: center;
   justify-content: space-between;
 

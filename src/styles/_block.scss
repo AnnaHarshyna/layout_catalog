@@ -55,20 +55,20 @@
   }
 
   &__code {
-    display: flex;
+    display: grid;
     margin-bottom: 15px;
     line-height: 1.18em;
   }
 
   &__rate {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 58px;
     height: 15px;
     margin-bottom: 22px;
   }
 
   &__review {
-    display: flex;
+    display: grid;
     align-items: center;
     line-height: 1.18em;
   }

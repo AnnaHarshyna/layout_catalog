@@ -1,11 +1,13 @@
 .price {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
-  align-content: flex-end;
+  align-content: end;
   align-items: baseline;
   margin-bottom: 21px;
 
   &__amount {
+    display: grid;
     font-weight: 700;
     font-style: inherit;
     font-size: 16px;
