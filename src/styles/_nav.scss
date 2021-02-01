@@ -25,10 +25,11 @@
     font-size: $link-font-size;
     font-weight: 500;
 
-    transition: all ease 0.5s;
+    transition: color 0.5s;
 
     &:hover {
       color: $link-color-hover;
+      
     }
   }
 
