@@ -1,0 +1,13 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+
+  margin: 0 auto;
+  padding: 0 40px;
+
+  justify-content: space-between;
+
+  font-family: $font-family;
+  color: $text-color;
+}

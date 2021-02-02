@@ -1,0 +1,15 @@
+.stars {
+  display: flex;
+
+  &__item {
+    width: $star-size;
+    height: $star-size;
+    margin-right: 4px;
+    background: url(..\images\star-active.svg) no-repeat center;
+  }
+
+  &__item:last-child {
+    background: url(..\images\star.svg) no-repeat center;
+  }
+
+}
